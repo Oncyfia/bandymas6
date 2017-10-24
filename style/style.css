@@ -1,0 +1,171 @@
+.clearfix:after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.container {
+    max-width: 900px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.top {
+    font-size: 0;
+}
+
+.top img {
+    width: 50%;
+}
+
+.top-right {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.top-right h5 {
+    margin-left: 20px;
+    font-size: 12px;
+    padding: 4px;
+    color: white;
+    background-color: orange;
+    width: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.top-right h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 20px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.top-right img {
+    width: 25px;
+    border-radius: 50%;
+    margin-left: 20px;
+/*    vertical-align: bottom;*/
+/*
+    margin-top: 20px;
+    margin-bottom: 20px;
+*/
+    float: left;
+}
+
+.top .fa-calendar-o {
+    font-size: 14px; 
+    color: gray;
+    margin-left: 20px;
+    line-height: 25px;
+    float: left;
+}
+
+.top-right .date {
+    font-size: 14px;
+    color: gray;
+    margin-left: 10px;
+    line-height: 25px;
+    float: left;
+}
+
+.top-right .comments {
+    float: right;
+    color: gray;
+    font-size: 14px;
+    line-height: 25px;
+    margin-right: 5px;
+}
+
+.top-right .fa-comment-o {
+    float: right;
+    color: gray;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.top-right .fa-caret-down {
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 5px 12px;
+    box-shadow: 0.5px 0.5px 0.2px darkgray;
+}
+
+.top-right .lorem {
+    font-size: 18px;
+    margin-left: 20px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.bottom {
+    font-size: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bottom-left {
+    width: 50%;
+    display: inline-block;
+}
+
+.bottom-left-one {
+    padding-top: 20px;
+}
+
+.bottom-left-two {
+    padding-top: 20px;
+}
+
+.bottom-right-one {
+    padding-top: 20px;
+}
+
+.bottom-right-two {
+    padding-top: 20px;
+}
+
+.bottom-right {
+    width: 50%;
+    display: inline-block;
+}
+
+.bottom img {
+    width: 25%;
+    display: inline-block;
+}
+
+.bottom .text {
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bottom h2 {
+    font-size: 16px;
+    font-weight: 600;
+    vertical-align: top;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+
+.bottom .text .fa {
+    color: gray;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.bottom p {
+    font-size: 14px;
+    padding-left: 10px;
+    color: gray;
+    display: inline-block;
+}
